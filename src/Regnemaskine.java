@@ -19,7 +19,7 @@ public class Regnemaskine {
         tal2 = input.nextDouble();
 
         switch (operator) {
-            case '+':
+            case '*':
                 resultat = tal1 + tal2;
                 System.out.println(tal1 + " + " + tal2 + " = " + resultat);
 
